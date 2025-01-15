@@ -119,5 +119,5 @@ The Crypto Alert Application is a full-stack project that allows users to fetch 
 
 ## **Contact**
 For any questions, feel free to reach out:
-- **Email**: your-aadityasinghas001@gmail.com
+- **Email**: aadityasinghas001@gmail.com
 - **GitHub**: [Aditya13134](https://github.com/Aditya13134)
