@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { createAlert, getAlerts } from '../services/alertService';
 
+// Function to handle creating a new alert
 export const createAlertHandler = async (req: Request, res: Response) => {
   try {
     const alert = await createAlert(req.body);
@@ -14,6 +15,7 @@ export const createAlertHandler = async (req: Request, res: Response) => {
   }
 };
 
+// Function to handle retrieving all alerts
 export const getAlertsHandler = async (req: Request, res: Response) => {
   try {
     const alerts = await getAlerts();
